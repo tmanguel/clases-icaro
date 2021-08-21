@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
     <header>
@@ -20,7 +20,59 @@
     </header>
 
     <main>
-      <h2>Soy contacto</h2>
+      <h2>Comunicate con nosotros!</h2>
+
+      <form id="form">
+        <fieldset>
+          <legend>Informacion de contacto</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" />
+          <br />
+          <br />
+
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" />
+
+          <br />
+          <br />
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" name="correo" />
+
+          <br />
+          <br />
+          <label for="edad">Edad</label>
+          <input
+            type="number"
+            id="edad"
+            name="edad"
+            max="99"
+            min="0"
+            step="1"
+          />
+          <!-- <label for="apellido">Apellido</label> -->
+          <!-- <input type="checkbox" id="input" name="checkbox1" value="check1" />
+          <input type="checkbox" id="input" name="checkbox2" value="check2" />
+          <input type="checkbox" id="input" name="checkbox3" value="check3" />
+
+          <input type="radio" id="input" name="genero" value="masc" />
+          <input type="radio" id="input" name="genero" value="fem" />
+          <input type="radio" id="input" name="genero" value="otro" /> -->
+
+          <br />
+          <br />
+          <label for="pais">Pais</label>
+          <select name="pais" id="pais">
+            <option value="arg">Argentina</option>
+            <option value="col">Colombia</option>
+            <option value="vzl">Venezuela</option>
+            <option value="bra">Brasil</option>
+          </select>
+
+          <br />
+          <br />
+          <button type="menu" id="sendBtn">Enviar</button>
+        </fieldset>
+      </form>
     </main>
 
     <footer>

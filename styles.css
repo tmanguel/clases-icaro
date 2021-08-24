@@ -1,1 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 30px 30px;
+  background-color: rgb(11, 60, 104);
+  color: #eee;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.link {
+  color: #eee;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #888;
+}
+
+.header-title,
+.links {
+  display: inline-block;
+}
+
+.header-title {
+  width: 70%;
+}
+
+.subtitle {
+  margin: 20px 0;
+  color: rgb(11, 60, 104);
+}
+
+.main {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.home-main {
+}
+
+.mayusculas {
+  text-transform: capitalize;
+}

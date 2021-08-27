@@ -54,3 +54,7 @@ body {
 .mayusculas {
   text-transform: capitalize;
 }
+
+.clase-de-prueba{
+  display: flex;
+}

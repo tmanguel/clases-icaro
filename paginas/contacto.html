@@ -1,0 +1,33 @@
+<!-- 3 - Dentro de la pagina de contacto crear un formulario con al menos dos inputs de texto, tres radio buttons y un select con algunas opciones. -->
+<!-- 4 - Agregar al formulario de contacto un boton de reset, uno para enviar los datos y uno con el texto 'JS' para funcionalidades de los ejercicios de JS -->
+
+<h1>Contacto</h1>
+
+<form id="form">
+    <div class="input">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre">
+    </div>
+    <div class="input">
+        <label for="apellido">Apellido:</label>
+        <input id="apellido">
+    </div>
+    <div class="input">
+        <label for="tomas">Tomas</label>
+        <input type="radio" name="personas" id="tomas" value="tomas">
+        <label for="matias">Matias</label>
+        <input type="radio" name="personas" id="matias" value="matias">
+        <label for="liz">Liz</label>
+        <input type="radio" name="personas" id="liz" value="liz">
+    </div>
+    <div class="input">
+        <select name="edad" id="edad">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3" selected>3</option>
+           <option value="4">4</option> 
+        </select>
+    </div>
+
+    <input type="reset">
+</form>

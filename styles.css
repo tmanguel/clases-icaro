@@ -1,2 +1,26 @@
 /* 1 - Dar los estilos necesarios en cuanto a espacios, colores y layout general a los HTML. */
 /* 2 - Aplicar algunos efectos de hover a botones o enlaces. */
+
+.receta{
+  margin: 20px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+  border: solid 2px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+.imagen{
+  height: 200px;
+  border-radius: 10px;
+  border: solid 1px black;
+  object-fit: cover;
+}
